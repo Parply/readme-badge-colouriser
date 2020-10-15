@@ -1,0 +1,38 @@
+name: Colourise badges
+author: Alexander John Pinches
+description: Make your badges into a nice rainbow
+
+inputs:
+        GH_TOKEN:
+                description: 'GitHub access token with Repo scope'
+                required: true
+                default: ${{ github.token }}
+        BRANCH:
+                description: 'Branch to commit to'
+                required: false
+                default: 'master'
+
+        COMMIT_MESSAGE:
+                description: 'Commit message'
+                required: false
+                default: 'Updated with rainbow badges'
+        AUTHOR:
+                description: 'Author name'
+                required: false
+                default: 'rainbow bot'
+        SATURATION:
+                description: 'Saturation [0,1]'
+                required: false
+                default: "1.0"
+        LUMINOSITY:
+                description: 'Luminosity [0,1]'
+                required: false
+                default: "0.5"
+
+runs:
+        using: 'docker'
+        image: 'Dockerfile'
+branding:
+        icon: 'activity'
+        color: 'orange'
+
