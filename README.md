@@ -80,6 +80,8 @@ If you want to add the other info to your stats, you can add multiple `FLAGS` in
 
 ### Additional Flags
 
+---
+
 `SATURATION` 	Saturation used when creating the rainbow palette. Defaults to `1.0`
 
 `LUMINOSITY` 	Luminosity used when creating the rainbow palette. Defaults to `0.5`
