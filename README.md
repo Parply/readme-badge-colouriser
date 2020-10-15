@@ -3,7 +3,9 @@
 <p align="center">
 <a href="https://github.com/Parply/Parply"><img src="https://raw.githubusercontent.com/Parply/readme-badge-colouriser/master/.github/Screenshot.png" alt="Example" width="100%"/></a>
 </p>
+
 ----
+
 <p align="center">
    <img src="https://img.shields.io/badge/language-python-blue?style"/>
    <img src="https://img.shields.io/github/license/Parply/readme-badge-colouriser"/>
@@ -63,9 +65,11 @@ jobs:
         with:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
 ```
+
 ## Extras
 
 1. If you want to add the other info to your stats, you can add multiple `FLAGS` in your workflow file.
+
 ```yml
 - uses: Parply/readme-badge-colouriser@master
         with:
@@ -73,6 +77,7 @@ jobs:
 		SATURATION: "0.7"
 		AUTHOR: "Parply"
 ```
+
 ### Additional Flags
 
 `SATURATION` 	Saturation used when creating the rainbow palette. Defaults to `1.0`
