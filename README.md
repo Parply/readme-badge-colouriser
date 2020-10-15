@@ -72,10 +72,10 @@ If you want to add the other info to your stats, you can add multiple `FLAGS` in
 
 ```yml
 - uses: Parply/readme-badge-colouriser@master
-        with:
-          	GH_TOKEN: ${{ secrets.GH_TOKEN }}
-		SATURATION: "0.7"
-		AUTHOR: "Parply"
+	with:
+	  GH_TOKEN: ${{ secrets.GH_TOKEN }}
+	  SATURATION: "0.5"
+	  AUTHOR: "Parply"
 ```
 
 ### Additional Flags
