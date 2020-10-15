@@ -1,10 +1,10 @@
 # Rainbow badges 🏳️‍🌈
 
 <p align="center">
-<a href="https://github.com/Parply/Parply"><img src="https://raw.githubusercontent.com/Parply/readme-badge-colouriser/master/.github/Screenshot.png" alt="Example" width="100%"/></a>
+<a href="https://github.com/Parply/Parply"><img src="https://github.com/Parply/readme-badge-colouriser/blob/master/.github/screenshot.png?raw=true" alt="Example" width="100%"/></a>
 </p>
 
-----
+---
 
 <p align="center">
    <img src="https://img.shields.io/badge/language-python-blue?style"/>
@@ -68,7 +68,7 @@ jobs:
 
 ## Extras
 
-1. If you want to add the other info to your stats, you can add multiple `FLAGS` in your workflow file.
+If you want to add the other info to your stats, you can add multiple `FLAGS` in your workflow file.
 
 ```yml
 - uses: Parply/readme-badge-colouriser@master
