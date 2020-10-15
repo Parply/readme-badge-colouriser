@@ -1,4 +1,4 @@
-FROM docker-library/python:3.7
+FROM python:3.7-buster
 
 ADD requirements.txt /requirements.txt
 ADD main.py /main.py
