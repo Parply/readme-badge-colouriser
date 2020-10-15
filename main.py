@@ -18,7 +18,7 @@ author = os.getenv('INPUT_AUTHOR')
 branch = os.getenv('INPUT_BRANCH')
 commit_message = os.getenv('INPUT_COMMIT_MESSAGE')
 saturation = float(os.getenv('INPUT_SATURATION'))
-lum = float(os.getenv('INUT_LUMINOSITY'))
+lum = float(os.getenv('INPUT_LUMINOSITY'))
 
 userInfoQuery = """
 {
