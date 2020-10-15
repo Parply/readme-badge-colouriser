@@ -20,3 +20,8 @@ jobs:
     - name: Analysing the code with pylint
       run: |
         pylint `ls -R|grep .py$|xargs`
+        
+    - name: Prettier Action
+      uses: creyD/prettier_action@v3.0
+
+
