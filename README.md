@@ -82,16 +82,16 @@ If you want to change options, you can add multiple `FLAGS` in your workflow fil
 
 ---
 
-`SATURATION` 	Saturation used when creating the rainbow palette. Defaults to `1.0`
+- `SATURATION` 	Saturation used when creating the rainbow palette. Defaults to `1.0`
 
-`LUMINOSITY` 	Luminosity used when creating the rainbow palette. Defaults to `0.5`
+- `LUMINOSITY` 	Luminosity used when creating the rainbow palette. Defaults to `0.5`
 
 
-`AUTHOR` 	Name of the author committing to the readme. Defaults to `rainbow bot`
+- `AUTHOR` 	Name of the author committing to the readme. Defaults to `rainbow bot`
 
-`BRANCH` 	Branch to commit to. Defaults to `master`
+- `BRANCH` 	Branch to commit to. Defaults to `master`
 
-`COMMIT_MESSAGE` Message when committing. Defaults to `Updated with rainbow badges`
+- `COMMIT_MESSAGE` Message when committing. Defaults to `Updated with rainbow badges`
 
 ----
 
