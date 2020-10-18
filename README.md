@@ -68,7 +68,7 @@ jobs:
 
 ## Extras
 
-If you want to add the other info to your stats, you can add multiple `FLAGS` in your workflow file.
+If you want to change options, you can add multiple `FLAGS` in your workflow file.
 
 ```yml
 - uses: Parply/readme-badge-colouriser@master
